@@ -1,3 +1,3 @@
 class postgresql {
-  include postgresql::install, postgresql::config, postgresql::service
+  include postgresql::params, postgresql::install, postgresql::config, postgresql::service
 }
